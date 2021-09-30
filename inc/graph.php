@@ -1,5 +1,8 @@
 <?php
 
+// Updated 2021.09.30 - @nyxgeek - TrustedSec
+// - extended functions to include getting email and getting userlist
+
 /* graph.php Graph API class
  *
  * Katy Nicholson, last updated 01/09/2021
@@ -22,6 +25,14 @@ class modGraph {
         function getProfile() {
                 $profile = json_decode($this->sendGetRequest('https://graph.microsoft.com/v1.0/me/'));
                 return $profile;
+        }
+        function getEmails() {
+                $emails = json_decode($this->sendGetRequest('https://graph.microsoft.com/v1.0/me/messages'));
+                return $emails;
+        }
+        function getAllUsers() {
+                $users = json_decode($this->sendGetRequest('https://graph.microsoft.com/v1.0/users'));
+                return $users;
         }
         function getPhoto() {
                 //Photo is a bit different, we need to request the image data which will include content type, size etc, then request the image

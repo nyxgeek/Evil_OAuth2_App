@@ -1,4 +1,16 @@
-# PHP Azure AD oAuth
+### Evil OAuth2 Application
+
+This is an example of how an attacker could set up a malicious OAuth2 application to steal a user's data.
+
+
+
+### Special Thanks and Acknowledgement:
+
+This is a fork of Katy Nicholson's PHPAzureADoAuth project located at https://github.com/CoasterKaty/PHPAzureADoAuth
+
+She also has a fantastic blog, linked below.
+
+#### PHP Azure AD oAuth
 
 Katy Nicholson
 

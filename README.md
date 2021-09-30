@@ -4,7 +4,7 @@ This is an example of how an attacker could set up a malicious OAuth2 applicatio
 
 Blog post will be out soon.
 
-
+---
 
 ### Special Thanks and Acknowledgement:
 

@@ -2,6 +2,8 @@
 
 This is an example of how an attacker could set up a malicious OAuth2 application to steal a user's data.
 
+Blog post will be out soon.
+
 
 
 ### Special Thanks and Acknowledgement:

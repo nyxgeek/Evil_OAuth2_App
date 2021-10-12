@@ -2,7 +2,7 @@
 
 This is an example of how an attacker could set up a malicious OAuth2 application to steal a user's data.
 
-Blog post will be out soon.
+https://www.trustedsec.com/blog/creating-a-malicious-azure-ad-oauth2-application
 
 ---
 

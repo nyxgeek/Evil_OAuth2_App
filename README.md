@@ -2,6 +2,8 @@
 
 This is an example of how an attacker could set up a malicious OAuth2 application to steal a user's data.
 
+Write-Up/Walkthrough:
+
 https://www.trustedsec.com/blog/creating-a-malicious-azure-ad-oauth2-application
 
 ---
@@ -14,12 +16,8 @@ She also has a fantastic blog, linked below.
 
 #### PHP Azure AD oAuth
 
-Katy Nicholson
-
-https://katystech.blog/
+Katy Nicholson - https://katystech.blog/
 
 PHP Class and associated code for Azure AD/Office 365 oAuth login to a demo web site.
 
-For detail on how to set this up on Azure AD see my blog post https://katystech.blog/2021/08/php-azuread-oauth-login/.
-
-Note: Requires the PHP curl extensions
+https://katystech.blog/2021/08/php-azuread-oauth-login/
